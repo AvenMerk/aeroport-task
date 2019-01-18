@@ -54,26 +54,28 @@ const flights = [
 class FlightTable extends React.Component {
     render() {
         return <React.Fragment>
-            <div className="aero-table-block">
-                <div className="aero-flex aero-add-zero-margin">
-                    <Grid item xs={3}><p className="aero-centred">Город</p></Grid>
-                    <Grid item xs={3}><p className="aero-centred">Время</p></Grid>
-                    <Grid item xs={3}><p className="aero-centred">Номер рейса</p></Grid>
-                    <Grid item xs={3}><p className="aero-centred">Статус</p></Grid>
-                </div>
-            </div>
-
-            <div>
-                {flights.map((flight, index) =>
-                    <div key={index}>
-                        <Flight time={flight.time}
-                                city={flight.city}
-                                number={flight.number}
-                                status={flight.status}
-                        />
+            <Grid item xs={8}>
+                <div className="aero-table-block">
+                    <div className="aero-flex aero-add-zero-margin">
+                        <Grid item xs={3}><p className="aero-centred">Город</p></Grid>
+                        <Grid item xs={3}><p className="aero-centred">Время</p></Grid>
+                        <Grid item xs={3}><p className="aero-centred">Номер рейса</p></Grid>
+                        <Grid item xs={3}><p className="aero-centred">Статус</p></Grid>
                     </div>
-                )}
-            </div>
+                </div>
+
+                <div>
+                    {flights.map((flight, index) =>
+                        <div key={index}>
+                            <Flight time={flight.time}
+                                    city={flight.city}
+                                    number={flight.number}
+                                    status={flight.status}
+                            />
+                        </div>
+                    )}
+                </div>
+            </Grid>
         </React.Fragment>
     }
 }

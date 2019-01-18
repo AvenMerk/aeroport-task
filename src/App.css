@@ -3,8 +3,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-  padding-left: 1em;
+h1, h3 {
+  padding-left: 2em;
   margin: 0;
 }
 
@@ -36,6 +36,16 @@ h1 {
 
 .aero-add-zero-margin {
   margin: 0;
+}
+
+.aero-flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.aero-search-container {
+  border-left: 1px solid #696969;
+  height: 100%;
 }
 
 
