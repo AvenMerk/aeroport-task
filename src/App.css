@@ -20,15 +20,14 @@ h1, h3 {
 }
 
 .aero-header {
-  background-color: darkgray;
-  background-image: linear-gradient(#696969, gray, #696969);
+  background-color: #a3a3a3;
   color: white;
   border-bottom: 1px solid #696969;
   line-height: 5em;
 }
 
 .aero-table-block {
-  background-image: linear-gradient(darkgray, whitesmoke, darkgray);
+  background-image: linear-gradient(#cccccc, whitesmoke, #cccccc);
   position: sticky;
   top: 0;
   width: 100%;
@@ -45,7 +44,7 @@ h1, h3 {
 
 .aero-search-container {
   border-left: 1px solid #696969;
-  height: 100%;
+  min-height: 100%;
 }
 
 
