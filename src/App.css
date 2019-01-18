@@ -44,8 +44,25 @@ h1, h3 {
 
 .aero-search-container {
   border-left: 1px solid #696969;
-  min-height: 100%;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: 100vh;
 }
 
+.aero-search-field-container {
+  margin: 5%;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  background-color: white;
+  width: fit-content;
+}
+
+.aero-search-input-field {
+  width: fit-content;
+  min-width: 20vw;
+  padding: 8px;
+  line-height: 3em;
+}
 
 

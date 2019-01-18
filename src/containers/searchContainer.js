@@ -2,6 +2,10 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Switch from '@material-ui/core/Switch';
 import Radio from '@material-ui/core/Radio';
+import SearchIcon from '@material-ui/icons/Search';
+import InputBase from '@material-ui/core/InputBase';
+import IconButton from '@material-ui/core/IconButton';
+import TextField from '@material-ui/core/TextField';
 
 class SearchContainer extends React.Component {
     state = {
@@ -23,7 +27,7 @@ class SearchContainer extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Grid item xs={4} className="aero-search-container">
+                <Grid item xs={4}>
                     <div className="aero-search-container">
                         <div>
                             <h3>Параметры поиска</h3>
@@ -55,6 +59,15 @@ class SearchContainer extends React.Component {
                             />
                             <label htmlFor="delayed">Задерживается</label>
                         </form>
+                        <div className="aero-search-field-container">
+                            <InputBase placeholder="Поиск по номеру рейса"
+                                        className="aero-search-input-field"
+                            />
+                            <IconButton aria-label="Search">
+                                <SearchIcon />
+                            </IconButton>
+                        </div>
+
                     </div>
                 </Grid>
             </React.Fragment>
