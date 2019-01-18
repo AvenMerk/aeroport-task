@@ -54,12 +54,15 @@ const flights = [
 class FlightTable extends React.Component {
     render() {
         return <React.Fragment>
-            <div className="aero-flex">
-                <Grid item xs={3}><p className="aero-centred">Город</p></Grid>
-                <Grid item xs={3}><p className="aero-centred">Время</p></Grid>
-                <Grid item xs={3}><p className="aero-centred">Номер рейса</p></Grid>
-                <Grid item xs={3}><p className="aero-centred">Статус</p></Grid>
+            <div className="aero-table-block">
+                <div className="aero-flex aero-add-zero-margin">
+                    <Grid item xs={3}><p className="aero-centred">Город</p></Grid>
+                    <Grid item xs={3}><p className="aero-centred">Время</p></Grid>
+                    <Grid item xs={3}><p className="aero-centred">Номер рейса</p></Grid>
+                    <Grid item xs={3}><p className="aero-centred">Статус</p></Grid>
+                </div>
             </div>
+
             <div>
                 {flights.map((flight, index) =>
                     <div key={index}>

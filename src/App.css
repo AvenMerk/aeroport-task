@@ -27,6 +27,16 @@ h1 {
   line-height: 5em;
 }
 
+.aero-table-block {
+  background-image: linear-gradient(darkgray, whitesmoke, darkgray);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.aero-add-zero-margin {
+  margin: 0;
+}
 
 
 
