@@ -16,7 +16,7 @@ class SearchContainer extends React.Component {
     };
 
     handleChangeSwitch = name => event => {
-        this.setState({ [name]: event.target.checked });
+        this.setState({[name]: event.target.checked});
     };
 
     handleChangeRadio = event => {
@@ -29,9 +29,9 @@ class SearchContainer extends React.Component {
                 <Grid item xs={4}>
                     <div className="aero-search-container">
                         <div>
-                            <h3>Параметры поиска</h3>
+                            <h2 className="aero-add-zero-margin">Параметры поиска</h2>
                         </div>
-                        <form>
+                        <form className="aero-radio-container">
                             <Radio
                                 checked={this.state.selectedValue === 'arrive'}
                                 onChange={this.handleChangeRadio}
