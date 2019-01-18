@@ -1,5 +1,11 @@
 body {
-  background-color: rgb(240, 240, 240);
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  padding-left: 1em;
+  margin: 0;
 }
 
 .aero-flex {
@@ -12,6 +18,15 @@ body {
 .aero-centred {
   text-align: center;
 }
+
+.aero-header {
+  background-color: darkgray;
+  background-image: linear-gradient(#696969, gray, #696969);
+  color: white;
+  border-bottom: 1px solid #696969;
+  line-height: 5em;
+}
+
 
 
 
