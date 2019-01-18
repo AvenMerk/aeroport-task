@@ -5,7 +5,6 @@ import Radio from '@material-ui/core/Radio';
 import SearchIcon from '@material-ui/icons/Search';
 import InputBase from '@material-ui/core/InputBase';
 import IconButton from '@material-ui/core/IconButton';
-import TextField from '@material-ui/core/TextField';
 
 class SearchContainer extends React.Component {
     state = {
