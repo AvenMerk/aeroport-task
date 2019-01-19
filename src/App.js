@@ -2,9 +2,7 @@ import React from 'react';
 import './styles/App.css';
 import Header from './components/Header';
 import FlightTable from './containers/flightTable';
-import SearchContainer from './containers/searchContainer'
-import { connect } from 'react-redux';
-
+import SearchContainer from './containers/searchContainer';
 
 class App extends React.Component {
   render() {
@@ -20,4 +18,4 @@ class App extends React.Component {
   }
 }
 
-export default connect()(App);
+export default App;

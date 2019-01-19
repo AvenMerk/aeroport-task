@@ -5,23 +5,20 @@ import Radio from '@material-ui/core/Radio';
 import SearchIcon from '@material-ui/icons/Search';
 import InputBase from '@material-ui/core/InputBase';
 import IconButton from '@material-ui/core/IconButton';
+import { connect } from 'react-redux';
+import { selectMode } from '../actions'
+
+export const DEPARTURES = 'departures';
+export const ARRIVALS = 'arrivals';
 
 class SearchContainer extends React.Component {
     state = {
-        //для свитч
-        checkedA: true,
-        checkedB: true,
-        //для радио
-        selectedValue: 'arrive',
+        delayed: false,
     };
 
-    handleChangeSwitch = name => event => {
-        this.setState({[name]: event.target.checked});
-    };
+    toggleDelayed = () => this.setState((prevState) => ({delayed: !prevState.delayed}));
 
-    handleChangeRadio = event => {
-        this.setState({ selectedValue: event.target.value });
-    };
+    changeMode = event => this.props.dispatch(selectMode(event.target.value));
 
     render() {
         return (
@@ -33,26 +30,24 @@ class SearchContainer extends React.Component {
                         </div>
                         <form className="aero-radio-container">
                             <Radio
-                                checked={this.state.selectedValue === 'arrive'}
-                                onChange={this.handleChangeRadio}
-                                value="arrive"
+                                checked={this.props.selectedMode === ARRIVALS}
+                                onChange={this.changeMode}
+                                value={ARRIVALS}
                                 name="radio-button-demo"
                                 color="primary"
-                                aria-label="A"
                             />
-                            <label htmlFor="arrive">Прибытие</label><br />
+                            <label>Прибытие</label><br />
                             <Radio
-                                checked={this.state.selectedValue === 'departure'}
-                                onChange={this.handleChangeRadio}
-                                value="departure"
+                                checked={this.props.selectedMode === DEPARTURES}
+                                onChange={this.changeMode}
+                                value={DEPARTURES}
                                 name="radio-button-demo"
                                 color="primary"
-                                aria-label="B"
                             />
-                            <label htmlFor="departure">Вылет</label><br />
+                            <label>Вылет</label><br />
                             <Switch
-                                checked={this.state.checkedA}
-                                onChange={this.handleChangeSwitch('checkedA')}
+                                checked={this.state.delayed}
+                                onChange={this.toggleDelayed}
                                 value="delayed"
                                 color="primary"
                             />
@@ -74,4 +69,8 @@ class SearchContainer extends React.Component {
     }
 }
 
-export default SearchContainer;
+const mapStateToProps = state => {
+    return state;
+};
+
+export default connect(mapStateToProps)(SearchContainer);
