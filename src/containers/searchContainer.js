@@ -24,44 +24,45 @@ class SearchContainer extends React.Component {
         return (
             <React.Fragment>
                 <Grid item xs={3}>
-                    <div className="aero-search-container">
-                        <div>
-                            <h2 className="aero-add-zero-margin">Параметры поиска</h2>
+                    <div className="aero-search-container aero-full-height">
+                        <div className="aero-tab">
+                            <div>
+                                <p className="aero-add-zero-margin aero-centred">Фильтр</p>
+                            </div>
+                            <form className="aero-radio-container">
+                                <Radio
+                                    checked={this.props.selectedMode === ARRIVALS}
+                                    onChange={this.changeMode}
+                                    value={ARRIVALS}
+                                    name="radio-button-demo"
+                                    color="primary"
+                                />
+                                <label>Прибытие</label><br />
+                                <Radio
+                                    checked={this.props.selectedMode === DEPARTURES}
+                                    onChange={this.changeMode}
+                                    value={DEPARTURES}
+                                    name="radio-button-demo"
+                                    color="primary"
+                                />
+                                <label>Вылет</label><br />
+                                <Switch
+                                    checked={this.state.delayed}
+                                    onChange={this.toggleDelayed}
+                                    value="delayed"
+                                    color="primary"
+                                />
+                                <label htmlFor="delayed">Задерживается</label>
+                            </form>
+                            <div className="aero-search-field-container">
+                                <InputBase placeholder="Поиск по номеру рейса"
+                                           className="aero-search-input-field"
+                                />
+                                <IconButton aria-label="Search">
+                                    <SearchIcon />
+                                </IconButton>
+                            </div>
                         </div>
-                        <form className="aero-radio-container">
-                            <Radio
-                                checked={this.props.selectedMode === ARRIVALS}
-                                onChange={this.changeMode}
-                                value={ARRIVALS}
-                                name="radio-button-demo"
-                                color="primary"
-                            />
-                            <label>Прибытие</label><br />
-                            <Radio
-                                checked={this.props.selectedMode === DEPARTURES}
-                                onChange={this.changeMode}
-                                value={DEPARTURES}
-                                name="radio-button-demo"
-                                color="primary"
-                            />
-                            <label>Вылет</label><br />
-                            <Switch
-                                checked={this.state.delayed}
-                                onChange={this.toggleDelayed}
-                                value="delayed"
-                                color="primary"
-                            />
-                            <label htmlFor="delayed">Задерживается</label>
-                        </form>
-                        <div className="aero-search-field-container">
-                            <InputBase placeholder="Поиск по номеру рейса"
-                                        className="aero-search-input-field"
-                            />
-                            <IconButton aria-label="Search">
-                                <SearchIcon />
-                            </IconButton>
-                        </div>
-
                     </div>
                 </Grid>
             </React.Fragment>

@@ -9,6 +9,10 @@ h1 {
   margin: 0;
 }
 
+p {
+  font-size: medium;
+}
+
 .aero-flex {
   display: flex;
   flex-direction: row;
@@ -30,7 +34,7 @@ h1 {
 .aero-table-block {
   background-color: rgb(244, 244, 244);
   border-bottom: 2px solid #6cd5f8;
-  box-shadow: 0px 3px 15px 3px #ccc;
+  box-shadow: 0 5px 15px 3px #ccc;
   position: sticky;
   top: 0;
   width: 100%;
@@ -48,8 +52,8 @@ h1 {
 .aero-search-container {
   position: sticky;
   top: 0;
-  padding-top: 5%;
-  padding-left: 10%;
+  box-shadow: 0 6em 15px 3px #ccc;
+  background-color: rgb(244, 244, 244);
 }
 
 .aero-search-field-container {
@@ -59,6 +63,7 @@ h1 {
   border-radius: 5px;
   background-color: white;
   width: fit-content;
+
 }
 
 .aero-search-input-field {
@@ -69,7 +74,20 @@ h1 {
 }
 
 .aero-radio-container {
-  padding-top: 5%;
+  padding-top: 2em;
+}
+
+.aero-full-height {
+  height: 100vh;
+}
+
+.aero-tab {
+  padding-left: 10%;
+  padding-top: 2em;
+}
+
+.aero-border-top {
+  border-top: 2px solid #6cd5f8;
 }
 
 
