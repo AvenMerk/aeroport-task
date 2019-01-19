@@ -54,7 +54,7 @@ const flights = [
 class FlightTable extends React.Component {
     render() {
         return <React.Fragment>
-            <Grid item xs={8}>
+            <Grid item xs={9}>
                 <div className="aero-table-block">
                     <div className="aero-flex aero-add-zero-margin">
                         <Grid item xs={3}><p className="aero-centred">Город</p></Grid>

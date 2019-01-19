@@ -1,18 +1,19 @@
 body {
-  background-color: whitesmoke;
+  background-color: #fafafa;
   font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   padding-left: 2em;
+  font-size: 42px;
   margin: 0;
 }
 
 .aero-flex {
   display: flex;
   flex-direction: row;
-  margin: 1%;
-  line-height: 3.5em;
+  margin: 2%;
+  line-height: 3em;
 }
 
 .aero-centred {
@@ -20,14 +21,16 @@ h1 {
 }
 
 .aero-header {
-  background-color: #a3a3a3;
+  background-color: #b6b6b6;
   color: white;
   border-bottom: 1px solid #696969;
   line-height: 5em;
 }
 
 .aero-table-block {
-  background-image: linear-gradient(#cccccc, whitesmoke, #cccccc);
+  background-color: rgb(244, 244, 244);
+  border-bottom: 2px solid #6cd5f8;
+  box-shadow: 0px 3px 15px 3px #ccc;
   position: sticky;
   top: 0;
   width: 100%;
@@ -43,12 +46,10 @@ h1 {
 }
 
 .aero-search-container {
-  border-left: 1px solid #696969;
-  /*width: 95%;*/
   position: sticky;
   top: 0;
-  height: 110vh;
-  padding: 5vh 2.5vw 5vh 2.5vw;
+  padding-top: 5%;
+  padding-left: 10%;
 }
 
 .aero-search-field-container {
@@ -62,7 +63,7 @@ h1 {
 
 .aero-search-input-field {
   width: fit-content;
-  min-width: 20vw;
+  min-width: 13vw;
   padding: 8px;
   line-height: 3em;
 }

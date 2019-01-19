@@ -23,7 +23,7 @@ class SearchContainer extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Grid item xs={4}>
+                <Grid item xs={3}>
                     <div className="aero-search-container">
                         <div>
                             <h2 className="aero-add-zero-margin">Параметры поиска</h2>
