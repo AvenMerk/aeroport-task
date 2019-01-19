@@ -16,7 +16,7 @@ const flightsForMode = (state = {flightData: []}, action) => {
       case FETCH_FLIGHTS:
           return {
               ...state,
-              flightData: action.data.FlightStatusResourse.Flights.Flight,
+              flightData: action.data.FlightStatusResource.Flights.Flight,
           };
       default:
           return state;

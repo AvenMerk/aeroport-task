@@ -1,6 +1,8 @@
 import React from 'react';
 import Flight from '../components/flight';
 import Grid from '@material-ui/core/Grid';
+import { connect } from 'react-redux';
+import {fetchFlights} from "../actions";
 
 const flights = [
     {
@@ -53,6 +55,20 @@ const flights = [
 
 class FlightTable extends React.Component {
 
+    componentDidMount() {
+        console.log('did mount');
+        const { dispatch, selectedMode } = this.props;
+        dispatch(fetchFlights(selectedMode))
+    }
+
+    componentDidUpdate(prevProps) {
+        if (prevProps.selectedMode !== this.props.selectedMode) {
+            console.log('did update');
+            const { dispatch, selectedMode } = this.props;
+            dispatch(fetchFlights(selectedMode))
+        }
+    }
+
     render() {
         return <React.Fragment>
             <Grid item xs={9}>
@@ -81,4 +97,12 @@ class FlightTable extends React.Component {
     }
 }
 
-export default FlightTable;
+const mapStateToProps = state => {
+    const { selectedMode, flightsForMode } = state;
+    return {
+        selectedMode,
+        ...flightsForMode,
+    }
+};
+
+export default connect(mapStateToProps)(FlightTable);

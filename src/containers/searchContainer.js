@@ -52,7 +52,7 @@ class SearchContainer extends React.Component {
                                     value="delayed"
                                     color="primary"
                                 />
-                                <label htmlFor="delayed">Задерживается</label>
+                                <label>Задерживается</label>
                             </form>
                             <div className="aero-search-field-container">
                                 <InputBase placeholder="Поиск по номеру рейса"
