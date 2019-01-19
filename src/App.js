@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
 import Header from './components/Header';
 import FlightTable from './containers/flightTable';
 import SearchContainer from './containers/searchContainer'
