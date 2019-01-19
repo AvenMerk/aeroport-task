@@ -1,4 +1,4 @@
-import { SELECT_MODE } from '../actions';
+import { SELECT_MODE, FETCH_FLIGHTS } from '../actions';
 import { combineReducers } from 'redux';
 import { DEPARTURES } from '../containers/searchContainer';
 
@@ -11,7 +11,20 @@ const selectedMode = (state = DEPARTURES, action) => {
     }
 };
 
+const flightsForMode = (state = {flightData: []}, action) => {
+  switch(action.type) {
+      case FETCH_FLIGHTS:
+          return {
+              ...state,
+              flightData: action.data.FlightStatusResourse.Flights.Flight,
+          };
+      default:
+          return state;
+  }
+};
+
 export default combineReducers({
     selectedMode,
+    flightsForMode,
 })
 

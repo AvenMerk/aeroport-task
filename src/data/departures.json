@@ -1,0 +1,2587 @@
+{
+  "FlightStatusResource": {
+    "Flights": {
+      "Flight": [
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T14:55"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T13:55Z"
+            },
+            "ActualTimeLocal": {
+              "DateTime": "2019-01-19T15:11"
+            },
+            "ActualTimeUTC": {
+              "DateTime": "2019-01-19T14:11Z"
+            },
+            "TimeStatus": {
+              "Code": "DL",
+              "Definition": "Flight Delayed"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "H30"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "BEG",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:20"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:20Z"
+            },
+            "EstimatedTimeLocal": {
+              "DateTime": "2019-01-19T16:19"
+            },
+            "EstimatedTimeUTC": {
+              "DateTime": "2019-01-19T15:19Z"
+            },
+            "TimeStatus": {
+              "Code": "FE",
+              "Definition": "Flight Early"
+            },
+            "Terminal": {
+              "Name": 2
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1728
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1728
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "DP",
+            "Definition": "Flight Departed"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:00"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:00Z"
+            },
+            "ActualTimeLocal": {
+              "DateTime": "2019-01-19T15:11"
+            },
+            "ActualTimeUTC": {
+              "DateTime": "2019-01-19T14:11Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G20"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "TXL",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:10"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:10Z"
+            },
+            "EstimatedTimeLocal": {
+              "DateTime": "2019-01-19T16:10"
+            },
+            "EstimatedTimeUTC": {
+              "DateTime": "2019-01-19T15:10Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Gate": "A07"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2042
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2042
+          },
+          "Equipment": {
+            "AircraftCode": 319
+          },
+          "FlightStatus": {
+            "Code": "DP",
+            "Definition": "Flight Departed"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:00"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:00Z"
+            },
+            "ActualTimeLocal": {
+              "DateTime": "2019-01-19T15:04"
+            },
+            "ActualTimeUTC": {
+              "DateTime": "2019-01-19T14:04Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G24"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "FRA",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:00"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:00Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 1,
+              "Gate": "A66"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 111
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 111
+          },
+          "Equipment": {
+            "AircraftCode": "32N"
+          },
+          "FlightStatus": {
+            "Code": "DP",
+            "Definition": "Flight Departed"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:00"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:00Z"
+            },
+            "ActualTimeLocal": {
+              "DateTime": "2019-01-19T15:04"
+            },
+            "ActualTimeUTC": {
+              "DateTime": "2019-01-19T14:04Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G23"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "PSA",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:15"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:15Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1952
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1952
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "DP",
+            "Definition": "Flight Departed"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:00"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:00Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K12"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "VIE",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:05"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:05Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2330
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2330
+          },
+          "Equipment": {
+            "AircraftCode": 320
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:05"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:05Z"
+            },
+            "ActualTimeLocal": {
+              "DateTime": "2019-01-19T15:06"
+            },
+            "ActualTimeUTC": {
+              "DateTime": "2019-01-19T14:06Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G64"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "GOA",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:15"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:15Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1944
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1944
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "DP",
+            "Definition": "Flight Departed"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:05"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:05Z"
+            },
+            "ActualTimeLocal": {
+              "DateTime": "2019-01-19T15:06"
+            },
+            "ActualTimeUTC": {
+              "DateTime": "2019-01-19T14:06Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G44"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "FLR",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:20"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:20Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "EN",
+            "FlightNumber": 8196
+          },
+          "OperatingCarrier": {
+            "AirlineID": "EN",
+            "FlightNumber": 8196
+          },
+          "Equipment": {
+            "AircraftCode": "E95"
+          },
+          "FlightStatus": {
+            "Code": "DP",
+            "Definition": "Flight Departed"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:05"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:05Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G19"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "BSL",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:00"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:00Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2398
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2398
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:05"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:05Z"
+            },
+            "ActualTimeLocal": {
+              "DateTime": "2019-01-19T15:05"
+            },
+            "ActualTimeUTC": {
+              "DateTime": "2019-01-19T14:05Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G21"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "NUE",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2160
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2160
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "DP",
+            "Definition": "Flight Departed"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:10"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:10Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G32"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "GVA",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:25"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:25Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 1
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2386
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2386
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:10"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:10Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G04"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "HAM",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:30"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:30Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2074
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2074
+          },
+          "Equipment": {
+            "AircraftCode": 320
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:10"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:10Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G18"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "FMO",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:25"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:25Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2142
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2142
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:15"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:15Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K09"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "BRE",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:30"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:30Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2112
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2112
+          },
+          "Equipment": {
+            "AircraftCode": "32V"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:15"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:15Z"
+            },
+            "ActualTimeLocal": {
+              "DateTime": "2019-01-19T15:10"
+            },
+            "ActualTimeUTC": {
+              "DateTime": "2019-01-19T14:10Z"
+            },
+            "TimeStatus": {
+              "Code": "FE",
+              "Definition": "Flight Early"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G42"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "VRN",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:15"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:15Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "EN",
+            "FlightNumber": 8210
+          },
+          "OperatingCarrier": {
+            "AirlineID": "EN",
+            "FlightNumber": 8210
+          },
+          "Equipment": {
+            "AircraftCode": "E95"
+          },
+          "FlightStatus": {
+            "Code": "DP",
+            "Definition": "Flight Departed"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:20"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:20Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K21"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "KRK",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1624
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1624
+          },
+          "Equipment": {
+            "AircraftCode": 321
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:25"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:25Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G17"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "WRO",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:35"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:35Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1632
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1632
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:25"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:25Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G33"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "DRS",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:20"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:20Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2126
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2126
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:25"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:25Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K03"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "MAD",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T18:05"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T17:05Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1804
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1804
+          },
+          "Equipment": {
+            "AircraftCode": 320
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:25"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:25Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "H38"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "SOF",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T18:15"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:15Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1704
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1704
+          },
+          "Equipment": {
+            "AircraftCode": "32V"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:25"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:25Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K04"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "ARN",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 5
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2418
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2418
+          },
+          "Equipment": {
+            "AircraftCode": 319
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:25"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:25Z"
+            },
+            "EstimatedTimeLocal": {
+              "DateTime": "2019-01-19T15:35"
+            },
+            "EstimatedTimeUTC": {
+              "DateTime": "2019-01-19T14:35Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "H37"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "SBZ",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T18:05"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:05Z"
+            },
+            "EstimatedTimeLocal": {
+              "DateTime": "2019-01-19T18:05"
+            },
+            "EstimatedTimeUTC": {
+              "DateTime": "2019-01-19T16:05Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1664
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1664
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:30"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:30Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K15"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "HEL",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T19:00"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T17:00Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 1
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2464
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2464
+          },
+          "Equipment": {
+            "AircraftCode": 320
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:30"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:30Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "H32"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "HND",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-20T10:55"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-20T01:55Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": "I",
+              "Gate": 106
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 714
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 714
+          },
+          "Equipment": {
+            "AircraftCode": 359
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:30"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:30Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G69"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "GRZ",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:20"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:20Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2344
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2344
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:30"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:30Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G26"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "DUS",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Gate": "A42"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2014
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2014
+          },
+          "Equipment": {
+            "AircraftCode": 319
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:35"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:35Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K22"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "MXP",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 1
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1860
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1860
+          },
+          "Equipment": {
+            "AircraftCode": 320
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:35"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:35Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K20"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "HAJ",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Gate": "A05"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2098
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2098
+          },
+          "Equipment": {
+            "AircraftCode": 319
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:35"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:35Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G14"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "ZRH",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:30"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:30Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2370
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2370
+          },
+          "Equipment": {
+            "AircraftCode": "E95"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:35"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:35Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "H34"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "MAN",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:45"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:45Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 1
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2502
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2502
+          },
+          "Equipment": {
+            "AircraftCode": 319
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G46"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "VCE",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "EN",
+            "FlightNumber": 8204
+          },
+          "OperatingCarrier": {
+            "AirlineID": "EN",
+            "FlightNumber": 8204
+          },
+          "Equipment": {
+            "AircraftCode": "E95"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G27"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "STR",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:25"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:25Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 1
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2148
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2148
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:40Z"
+            },
+            "TimeStatus": {
+              "Code": "NO",
+              "Definition": "No status"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "H44"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "EWR",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T19:05"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-20T00:05Z"
+            },
+            "TimeStatus": {
+              "Code": "NO",
+              "Definition": "No status"
+            },
+            "Terminal": {
+              "Name": "B"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 412
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 412
+          },
+          "Equipment": {
+            "AircraftCode": 359
+          },
+          "FlightStatus": {
+            "Code": "CD",
+            "Definition": "Flight Cancelled"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K07"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "BLQ",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:45"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:45Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "EN",
+            "FlightNumber": 8242
+          },
+          "OperatingCarrier": {
+            "AirlineID": "EN",
+            "FlightNumber": 8242
+          },
+          "Equipment": {
+            "AircraftCode": "E95"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G15"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "BRU",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:05"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:05Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2290
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2290
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K19"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "NTE",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:35"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:35Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2242
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2242
+          },
+          "Equipment": {
+            "AircraftCode": "E95"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:40"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:40Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K01"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "CDG",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:15"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:15Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 1,
+              "Gate": "064"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2234
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2234
+          },
+          "Equipment": {
+            "AircraftCode": 321
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:45"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:45Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K05"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "BCN",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:45"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:45Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 1
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1814
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1814
+          },
+          "Equipment": {
+            "AircraftCode": 319
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:45"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:45Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G20"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "CGN",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:50"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:50Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 1,
+              "Gate": "C20"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1990
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1990
+          },
+          "Equipment": {
+            "AircraftCode": "32V"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:45"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:45Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "H39"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "BRS",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:55"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:55Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "BM",
+            "FlightNumber": 1846
+          },
+          "OperatingCarrier": {
+            "AirlineID": "BM",
+            "FlightNumber": 1846
+          },
+          "Equipment": {
+            "AircraftCode": "ER3"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:45"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:45Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "L25"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "BOS",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T18:35"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T23:35Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": "E",
+              "Gate": "E10"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 424
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 424
+          },
+          "Equipment": {
+            "AircraftCode": 359
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:50"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:50Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G71"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "PMI",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:50"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:50Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1820
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1820
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:50"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:50Z"
+            },
+            "TimeStatus": {
+              "Code": "NO",
+              "Definition": "No status"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "L25"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "ORD",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T18:55"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-20T00:55Z"
+            },
+            "TimeStatus": {
+              "Code": "NO",
+              "Definition": "No status"
+            },
+            "Terminal": {
+              "Name": 5
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 434
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 434
+          },
+          "Equipment": {
+            "AircraftCode": 359
+          },
+          "FlightStatus": {
+            "Code": "CD",
+            "Definition": "Flight Cancelled"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:50"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:50Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G70"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "RZE",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:15"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:15Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1606
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 1606
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:50"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:50Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "H28"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "DUB",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:20"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T17:20Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 1
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2518
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2518
+          },
+          "Equipment": {
+            "AircraftCode": "32V"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:55"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:55Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "L26"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "IAD",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T19:45"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-20T00:45Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Gate": "B45"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 414
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 414
+          },
+          "Equipment": {
+            "AircraftCode": 333
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:55"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:55Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "K06"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "GOT",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:50"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:50Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2430
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2430
+          },
+          "Equipment": {
+            "AircraftCode": 320
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T15:55"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T14:55Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "H10"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "LHR",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:05"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T17:05Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2478
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2478
+          },
+          "Equipment": {
+            "AircraftCode": 321
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:00"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:00Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "G48"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "TLS",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:50"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:50Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2220
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2220
+          },
+          "Equipment": {
+            "AircraftCode": "E95"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:00"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:00Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "H26"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "TIA",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:50"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T16:50Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "JP",
+            "FlightNumber": 713
+          },
+          "OperatingCarrier": {
+            "AirlineID": "JP",
+            "FlightNumber": 713
+          },
+          "Equipment": {
+            "AircraftCode": "CR9"
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        },
+        {
+          "Departure": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T16:00"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T15:00Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            },
+            "Terminal": {
+              "Name": 2,
+              "Gate": "H40"
+            }
+          },
+          "Arrival": {
+            "AirportCode": "BHX",
+            "ScheduledTimeLocal": {
+              "DateTime": "2019-01-19T17:05"
+            },
+            "ScheduledTimeUTC": {
+              "DateTime": "2019-01-19T17:05Z"
+            },
+            "TimeStatus": {
+              "Code": "OT",
+              "Definition": "Flight On Time"
+            }
+          },
+          "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2510
+          },
+          "OperatingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": 2510
+          },
+          "Equipment": {
+            "AircraftCode": 320
+          },
+          "FlightStatus": {
+            "Code": "NA",
+            "Definition": "No status"
+          },
+          "ServiceType": "Passenger"
+        }
+      ]
+    },
+    "Meta": {
+      "@Version": "1.0.0",
+      "Link": [
+        {
+          "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/departures/MUC/2019-01-19T15:00?limit=100",
+          "@Rel": "self"
+        },
+        {
+          "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/departures/MUC/2019-01-19T11:00?limit=50&offset=0",
+          "@Rel": "previousRange"
+        },
+        {
+          "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/departures/MUC/2019-01-19T15:00?limit=50&offset=50",
+          "@Rel": "next"
+        },
+        {
+          "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/departures/MUC/2019-01-19T15:00?limit=50&offset=50",
+          "@Rel": "last"
+        },
+        {
+          "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/departures/MUC/2019-01-19T19:00?limit=50&offset=0",
+          "@Rel": "nextRange"
+        },
+        {
+          "@Href": "https://api.lufthansa.com/v1/references/airports/{airportCode}",
+          "@Rel": "related"
+        }
+      ],
+      "TotalCount": 85
+    }
+  }
+}

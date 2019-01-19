@@ -52,6 +52,7 @@ const flights = [
 ];
 
 class FlightTable extends React.Component {
+
     render() {
         return <React.Fragment>
             <Grid item xs={9}>
