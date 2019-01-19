@@ -71,7 +71,10 @@ class SearchContainer extends React.Component {
 }
 
 const mapStateToProps = state => {
-    return state;
+    const { selectedMode } = state;
+    return {
+        selectedMode,
+    };
 };
 
 export default connect(mapStateToProps)(SearchContainer);
