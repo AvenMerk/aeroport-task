@@ -37,7 +37,7 @@ class FlightTable extends React.Component {
         }
     };
 
-    filterFlight = (data) => {
+    filterDelayed = (data) => {
         //если selectedDelayed === false, то фильтровать нечего
         if (this.props.selectedDelayed === false) {
             return true;
@@ -50,9 +50,18 @@ class FlightTable extends React.Component {
         }
     };
 
-    getFlightData = () => {
-        return this.props.flightData.filter(this.filterFlight).map(this.mapFlightMode);
+    filterByFlightNumber = (data) => {
+        if (this.props.searchedFlight === "") {
+            return true;
+        }
+        const { AirlineID, FlightNumber} = data.MarketingCarrier;
+        return `${AirlineID} ${FlightNumber}`.includes(this.props.searchedFlight);
     };
+
+    getFlightData = () =>  this.props.flightData
+        .filter(this.filterDelayed)
+        .filter(this.filterByFlightNumber)
+        .map(this.mapFlightMode);
 
 
     render() {
@@ -76,11 +85,12 @@ class FlightTable extends React.Component {
 }
 
 const mapStateToProps = state => {
-    const { selectedMode, selectedDelayed, flightsForMode } = state;
+    const { selectedMode, selectedDelayed, flightsForMode, searchedFlight } = state;
     return {
         selectedMode,
         selectedDelayed,
         ...flightsForMode,
+        searchedFlight,
     }
 };
 

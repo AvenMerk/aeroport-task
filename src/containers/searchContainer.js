@@ -17,7 +17,7 @@ class SearchContainer extends React.Component {
 
     changeMode = event => this.props.dispatch(selectMode(event.target.value));
 
-    searchingFlight = event => this.props.dispatch(searchFlight(event.target.value))
+    searchingFlight = event => this.props.dispatch(searchFlight(event.target.value));
 
     render() {
         return (
