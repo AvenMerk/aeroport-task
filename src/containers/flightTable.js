@@ -21,12 +21,20 @@ class FlightTable extends React.Component {
     }
 
     mapFlightMode = (data, index) => {
-        return <div key={index}>
-            {this.props.selectedMode === DEPARTURES ?
-                <Departure data={data}/> :
-                <Arrival data={data}/>
-            }
-        </div>;
+        switch (this.props.selectedMode) {
+            case DEPARTURES:
+                return (
+                    <div key={index}>
+                        <Departure data={data}/>
+                    </div>
+                );
+            default:
+                return (
+                    <div key={index}>
+                        <Arrival data={data}/>
+                    </div>
+                );
+        }
     };
 
     filterFlight = (data) => {
