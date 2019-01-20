@@ -5,6 +5,7 @@ import departures from '../data/departures.json';
 export const SELECT_MODE = 'SELECT_MODE';
 export const FETCH_FLIGHTS = 'FETCH_FLIGHTS';
 export const SELECT_DELAYED = 'SELECT_DELAYED';
+export const SEARCH_FLIGHT = 'SEARCH_FLIGHT';
 
 export const selectMode = mode => {
     return {
@@ -24,6 +25,13 @@ export const fetchFlights = mode => {
   return {
       type: FETCH_FLIGHTS,
       data: mode === DEPARTURES ? departures : arrivals,
+  }
+};
+
+export const searchFlight = substring => {
+  return {
+      type: SEARCH_FLIGHT,
+      substring
   }
 };
 
