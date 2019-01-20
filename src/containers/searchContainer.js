@@ -6,7 +6,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import InputBase from '@material-ui/core/InputBase';
 import IconButton from '@material-ui/core/IconButton';
 import { connect } from 'react-redux';
-import { selectMode, selectDelayed } from '../actions';
+import { selectMode, selectDelayed, searchFlight } from '../actions';
 
 export const DEPARTURES = 'departures';
 export const ARRIVALS = 'arrivals';
@@ -16,6 +16,8 @@ class SearchContainer extends React.Component {
     toggleDelayed = () => this.props.dispatch(selectDelayed(!this.props.selectedDelayed));
 
     changeMode = event => this.props.dispatch(selectMode(event.target.value));
+
+    searchingFlight = event => this.props.dispatch(searchFlight(event.target.value))
 
     render() {
         return (
@@ -54,6 +56,7 @@ class SearchContainer extends React.Component {
                             <div className="aero-search-field-container">
                                 <InputBase placeholder="Поиск по номеру рейса"
                                            className="aero-search-input-field"
+                                           onChange={this.searchingFlight}
                                 />
                                 <IconButton aria-label="Search">
                                     <SearchIcon />
@@ -68,10 +71,11 @@ class SearchContainer extends React.Component {
 }
 
 const mapStateToProps = state => {
-    const { selectedMode, selectedDelayed } = state;
+    const { selectedMode, selectedDelayed, searchedFlight } = state;
     return {
         selectedMode,
         selectedDelayed,
+        searchedFlight,
     };
 };
 
