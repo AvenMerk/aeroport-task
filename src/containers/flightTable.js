@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import { connect } from 'react-redux';
 import {fetchFlights} from "../actions";
 import Arrival from '../components/arrival'
+import {DEPARTURES} from "./searchContainer";
 
 class FlightTable extends React.Component {
 
@@ -19,6 +20,33 @@ class FlightTable extends React.Component {
         }
     }
 
+    mapFlightMode = (data, index) => {
+        return <div key={index}>
+            {this.props.selectedMode === DEPARTURES ?
+                <Departure data={data}/> :
+                <Arrival data={data}/>
+            }
+        </div>;
+    };
+
+    filterFlight = (data) => {
+        //если selectedDelayed === false, то фильтровать нечего
+        if (this.props.selectedDelayed === false) {
+            return true;
+        }
+        switch (this.props.selectedMode) {
+            case DEPARTURES:
+                return data.Departure.TimeStatus.Code === 'DL';
+            default:
+                return data.Arrival.TimeStatus.Code === 'DL';
+        }
+    };
+
+    getFlightData = () => {
+        return this.props.flightData.filter(this.filterFlight).map(this.mapFlightMode);
+    };
+
+
     render() {
         return <React.Fragment>
             <Grid item xs={9}>
@@ -32,15 +60,7 @@ class FlightTable extends React.Component {
                 </div>
 
                 <div>
-                    {this.props.flightData.map((data, index) =>
-                        <div key={index}>
-                            {this.props.selectedMode === 'departures' ?
-                                <Departure data={data} /> :
-                                <Arrival data={data}/>
-                            }
-
-                        </div>
-                    )}
+                    {this.getFlightData()}
                 </div>
             </Grid>
         </React.Fragment>
@@ -48,9 +68,10 @@ class FlightTable extends React.Component {
 }
 
 const mapStateToProps = state => {
-    const { selectedMode, flightsForMode } = state;
+    const { selectedMode, selectedDelayed, flightsForMode } = state;
     return {
         selectedMode,
+        selectedDelayed,
         ...flightsForMode,
     }
 };
