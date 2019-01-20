@@ -32,7 +32,7 @@ const flightsForMode = (state = {flightData: []}, action) => {
     }
 };
 
-const searchedFlight = (state = {substring: ''}, action) => {
+const searchedFlight = (state = "", action) => {
     switch (action.type) {
         case SEARCH_FLIGHT:
             return action.substring;
