@@ -3,6 +3,7 @@ import Departure from '../components/departure';
 import Grid from '@material-ui/core/Grid';
 import { connect } from 'react-redux';
 import {fetchFlights} from "../actions";
+import Arrival from '../components/arrival'
 
 class FlightTable extends React.Component {
 
@@ -35,7 +36,11 @@ class FlightTable extends React.Component {
                 <div>
                     {this.props.flightData.map((data, index) =>
                         <div key={index}>
-                            <Departure data={data} />
+                            {this.props.selectedMode === 'departures' ?
+                                <Departure data={data} /> :
+                                <Arrival data={data}/>
+                            }
+
                         </div>
                     )}
                 </div>

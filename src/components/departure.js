@@ -11,7 +11,7 @@ const Departure = ({ data }) => {
             <Grid item xs={3}><p className="aero-centred">{Departure.AirportCode} => {Arrival.AirportCode}</p></Grid>
             <Grid item xs={3}><p className="aero-centred">{date}</p></Grid>
             <Grid item xs={3}><p className="aero-centred">{MarketingCarrier.AirlineID} {MarketingCarrier.FlightNumber}</p></Grid>
-            <Grid item xs={3}><p className="aero-centred">{Arrival.TimeStatus.Definition}</p></Grid>
+            <Grid item xs={3}><p className="aero-centred">{Departure.TimeStatus.Definition}</p></Grid>
         </Paper>
     )
 };
