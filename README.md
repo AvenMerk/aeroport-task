@@ -1,17 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Before starting project
+## Перед запуском проекта
 
-In the project directory run:
+В директории с проектом запустить:
 
 ### `npm i`
 
-for installing node modules
+для установки node modules
 
-## To start project
+## Для запуска проекта
 
-In the project directory run:
+В директории с проектом запустить:
 
 ### `npm start`
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Открыть [http://localhost:3000](http://localhost:3000) для просмотра в браузере.
