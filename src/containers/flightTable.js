@@ -55,7 +55,7 @@ class FlightTable extends React.Component {
             return true;
         }
         const { AirlineID, FlightNumber} = data.MarketingCarrier;
-        return `${AirlineID} ${FlightNumber}`.includes(this.props.searchedFlight);
+        return `${AirlineID} ${FlightNumber}`.includes(this.props.searchedFlight.toUpperCase());
     };
 
     getFlightData = () =>  this.props.flightData
