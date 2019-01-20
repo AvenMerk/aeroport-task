@@ -3,7 +3,7 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import dateFormat from 'dateformat';
 
-const Flight = ({ data }) => {
+const Departure = ({ data }) => {
     const {Arrival, Departure, MarketingCarrier} = data;
     const date = dateFormat(Departure.ScheduledTimeLocal.DateTime, 'HH:MM');
     return (
@@ -16,4 +16,4 @@ const Flight = ({ data }) => {
     )
 };
 
-export default Flight;
+export default Departure;

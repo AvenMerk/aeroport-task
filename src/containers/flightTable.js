@@ -1,5 +1,5 @@
 import React from 'react';
-import Flight from '../components/flight';
+import Departure from '../components/departure';
 import Grid from '@material-ui/core/Grid';
 import { connect } from 'react-redux';
 import {fetchFlights} from "../actions";
@@ -35,7 +35,7 @@ class FlightTable extends React.Component {
                 <div>
                     {this.props.flightData.map((data, index) =>
                         <div key={index}>
-                            <Flight data={data} />
+                            <Departure data={data} />
                         </div>
                     )}
                 </div>
